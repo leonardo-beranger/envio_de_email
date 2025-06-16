@@ -7,7 +7,7 @@ import numpy as np
 from datetime import datetime, timedelta
 
 # Caminho da pasta onde está o módulo 'bib.py'
-bibliotecas = r'C:\Users\leona\OneDrive\Documentos\vscode projetos\Envio_de_email\biblioteca'
+bibliotecas = r'diretorio do arquivo bib.py'
 
 # Adiciona o diretório ao sys.path
 sys.path.append(bibliotecas)
