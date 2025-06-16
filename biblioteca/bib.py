@@ -7,10 +7,8 @@ import os
 
 def enviar_email(destinatarios, assunto, texto_html, copia=[], caminhos_anexo=[]):
     # Configurações do e-mail e do servidor SMTP
-    # remetente = 'seu_email@gmail.com' # <- coloque seu e-mail
-    # senha = 'senha' # <- coloque sua senha de app, crie uma com essa dica: https://www.youtube.com/watch?v=4Qgz2c7yR7s
-    remetente = 'leonardoberangergomes@gmail.com'
-    senha = 'mjys wyhy yodx qeax'
+    remetente = 'seu_email@gmail.com' # <- coloque seu e-mail
+    senha = 'senha' # <- coloque sua senha de app, crie uma com essa dica: https://www.youtube.com/watch?v=4Qgz2c7yR7s
      
     try:
         # Criando a mensagem
